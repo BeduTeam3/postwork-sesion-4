@@ -9,4 +9,4 @@ Fase 2 - Equipo #3
 
 ### [Postwork de la sesión 4](https://github.com/beduExpert/Programacion-JavaScript-Santander-2021/tree/main/Sesion-04/Postwork)
 
-El trabajo de cada integrante se encuentra en diferentes branch de este repositorio.
+Esta rama contiene el trabajo de Hiram Chávez López, tambien esta en su repo personal: https://github.com/JustLearningMX/PostWorkS4
