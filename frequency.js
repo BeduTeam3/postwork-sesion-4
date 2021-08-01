@@ -1,5 +1,21 @@
 function frequency(string) {
- // Code goes here
+    let objeto = {};
+
+    for (const element of string) {
+        //console.log(objeto[element])  //asi podemos ver que sera de tipo undefined y le asignaremos primero y solo una vez un valor de 0
+        if (objeto[element]===undefined){
+            objeto[element] =0; 
+        }
+        objeto[element] +=1; 
+    }
+    let llaves=Object.keys(objeto).sort();
+    let newObjfreq=Object.create(objeto);
+
+    for (const i of llaves) {
+        newObjfreq[i]=objeto[i];
+    }
+
+    return newObjfreq
 }
 
 console.log('Test 1:', frequency('cccbbbaaa'))
